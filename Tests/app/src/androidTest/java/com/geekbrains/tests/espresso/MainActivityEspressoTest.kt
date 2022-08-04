@@ -1,10 +1,8 @@
-package com.geekbrains.tests
+package com.geekbrains.tests.espresso
 
-import android.content.Context
 import android.view.View
 import android.view.inputmethod.EditorInfo
 import androidx.test.core.app.ActivityScenario
-import androidx.test.core.app.ApplicationProvider
 import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.UiController
 import androidx.test.espresso.ViewAction
@@ -16,6 +14,8 @@ import androidx.test.espresso.intent.matcher.IntentMatchers.hasComponent
 import androidx.test.espresso.intent.rule.IntentsTestRule
 import androidx.test.espresso.matcher.ViewMatchers.*
 import androidx.test.ext.junit.runners.AndroidJUnit4
+import com.geekbrains.tests.BuildConfig
+import com.geekbrains.tests.R
 import com.geekbrains.tests.view.details.DetailsActivity
 import com.geekbrains.tests.view.search.MainActivity
 import org.hamcrest.Matcher
