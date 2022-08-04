@@ -1,7 +1,6 @@
-package com.geekbrains.tests.repository
-
 import com.geekbrains.tests.model.SearchResponse
 import com.geekbrains.tests.presenter.RepositoryContract
+import com.geekbrains.tests.repository.RepositoryCallback
 import retrofit2.Response
 
 internal class FakeGitHubRepository : RepositoryContract {
