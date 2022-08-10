@@ -1,0 +1,5 @@
+package com.geekbrains.tests
+
+internal const val RESULTS_ZERO = "Number of results: 0"
+internal const val RESULTS_ONE = "Number of results: 1"
+internal const val RESULTS_MINUS_ONE = "Number of results: -1"
